@@ -3,3 +3,4 @@
 R-jsonlite
 R-testthat
 R-knitr
+openssl-dev
