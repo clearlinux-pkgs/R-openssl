@@ -4,17 +4,17 @@
 #
 Name     : R-openssl
 Version  : 0.9.4
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/openssl_0.9.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/openssl_0.9.4.tar.gz
 Summary  : Toolkit for Encryption, Signatures and Certificates Based on
 Group    : Development/Tools
 License  : MIT
 Requires: R-openssl-lib
-Requires: R-crayon
-BuildRequires : R-crayon
+Requires: R-stringr
 BuildRequires : R-jsonlite
 BuildRequires : R-knitr
+BuildRequires : R-stringr
 BuildRequires : R-testthat
 BuildRequires : clr-R-helpers
 BuildRequires : openssl-dev
@@ -49,6 +49,7 @@ mkdir -p %{buildroot}/usr/lib64/R/library
 R CMD INSTALL --install-tests --build  -l %{buildroot}/usr/lib64/R/library openssl
 %{__rm} -rf %{buildroot}%{_datadir}/R/library/R.css
 %check
+export LANG=C
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
