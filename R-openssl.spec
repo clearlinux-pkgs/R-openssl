@@ -4,7 +4,7 @@
 #
 Name     : R-openssl
 Version  : 0.9.7
-Release  : 34
+Release  : 35
 URL      : https://cran.r-project.org/src/contrib/openssl_0.9.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/openssl_0.9.7.tar.gz
 Summary  : Toolkit for Encryption, Signatures and Certificates Based on
