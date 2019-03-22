@@ -1,3 +1,4 @@
 # This file contains recursive sources that require this package
 R-httr
+R-pkgdown
 R-rsconnect
