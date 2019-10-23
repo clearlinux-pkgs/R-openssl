@@ -4,10 +4,10 @@
 #
 Name     : R-openssl
 Version  : 1.4.1
-Release  : 69
+Release  : 70
 URL      : https://cran.r-project.org/src/contrib/openssl_1.4.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/openssl_1.4.1.tar.gz
-Summary  : Toolkit for Encryption, Signatures and Certificates Based on
+Summary  : Toolkit for Encryption, Signatures and Certificates Based on OpenSSL
 Group    : Development/Tools
 License  : MIT
 Requires: R-openssl-lib = %{version}-%{release}
@@ -18,6 +18,7 @@ BuildRequires : R-knitr
 BuildRequires : R-testthat
 BuildRequires : buildreq-R
 BuildRequires : openssl-dev
+BuildRequires : util-linux
 
 %description
 Supports RSA, DSA and EC curves P-256, P-384, P-521, and curve25519. Cryptographic
@@ -45,10 +46,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1563472415
+export SOURCE_DATE_EPOCH=1571869920
 
 %install
-export SOURCE_DATE_EPOCH=1563472415
+export SOURCE_DATE_EPOCH=1571869920
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
