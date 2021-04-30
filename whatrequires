@@ -1,4 +1,6 @@
 # This file contains recursive sources that require this package
+R-credentials
+R-gert
 R-httr
 R-pkgdown
 R-rsconnect
