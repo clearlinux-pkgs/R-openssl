@@ -4,7 +4,7 @@
 #
 Name     : R-openssl
 Version  : 1.4.5
-Release  : 87
+Release  : 88
 URL      : https://cran.r-project.org/src/contrib/openssl_1.4.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/openssl_1.4.5.tar.gz
 Summary  : Toolkit for Encryption, Signatures and Certificates Based on
