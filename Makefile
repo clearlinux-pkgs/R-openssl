@@ -1,5 +1,5 @@
 PKG_NAME := R-openssl
-URL = https://cran.r-project.org/src/contrib/openssl_1.4.6.tar.gz
+URL = https://cran.r-project.org/src/contrib/openssl_2.0.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
