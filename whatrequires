@@ -1,7 +1,10 @@
 # This file contains recursive sources that require this package
 R-base64url
 R-credentials
+R-gargle
 R-gert
 R-httr
+R-httr2
 R-ids
+R-officer
 R-rsconnect
