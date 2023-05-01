@@ -4,7 +4,7 @@
 #
 Name     : R-openssl
 Version  : 2.0.6
-Release  : 106
+Release  : 107
 URL      : https://cran.r-project.org/src/contrib/openssl_2.0.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/openssl_2.0.6.tar.gz
 Summary  : Toolkit for Encryption, Signatures and Certificates Based on
