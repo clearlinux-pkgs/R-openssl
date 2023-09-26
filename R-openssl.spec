@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-openssl
-Version  : 2.1.0
-Release  : 109
-URL      : https://cran.r-project.org/src/contrib/openssl_2.1.0.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/openssl_2.1.0.tar.gz
+Version  : 2.1.1
+Release  : 110
+URL      : https://cran.r-project.org/src/contrib/openssl_2.1.1.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/openssl_2.1.1.tar.gz
 Summary  : Toolkit for Encryption, Signatures and Certificates Based on
 Group    : Development/Tools
 License  : MIT
@@ -52,10 +52,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689615833
+export SOURCE_DATE_EPOCH=1695745979
 
 %install
-export SOURCE_DATE_EPOCH=1689615833
+export SOURCE_DATE_EPOCH=1695745979
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
