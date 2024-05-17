@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : R-openssl
-Version  : 2.1.2
-Release  : 113
-URL      : https://cran.r-project.org/src/contrib/openssl_2.1.2.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/openssl_2.1.2.tar.gz
+Version  : 2.2.0
+Release  : 114
+URL      : https://cran.r-project.org/src/contrib/openssl_2.2.0.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/openssl_2.2.0.tar.gz
 Summary  : Toolkit for Encryption, Signatures and Certificates Based on
 Group    : Development/Tools
 License  : MIT
@@ -57,10 +57,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713811405
+export SOURCE_DATE_EPOCH=1715908482
 
 %install
-export SOURCE_DATE_EPOCH=1713811405
+export SOURCE_DATE_EPOCH=1715908482
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
